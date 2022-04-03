@@ -1,0 +1,96 @@
+/************************************************
+ * ROFI Color theme
+ * User: Efeuncode
+ * Copyright: 2022
+ ***********************************************/
+
+ * {
+	machinegun-gray:			#282c34;
+	eerie-black:    			#1c1f25;
+	polish-gray:				#dfdfdf;
+	lambo-green:    			#adff02;
+    lavender:                   #c678dd;
+    showoff-violet:             #8f00ff;
+
+    font-size: 1px;
+  /*  border-color: @eerie-black;
+    background-color: @machingun-gray;
+    text-color: @polish-gray; */
+	
+	background-color: @machinegun-gray;
+	
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    spacing: 0;
+}
+
+window {
+    background-color: @machinegun-gray;
+    border-color: @eerie-black;
+    border: 1;
+    border-radius: 2px;
+}
+
+mainbox {
+    border: 0;
+    padding: 40;
+    background-color: @machinegun-gray;
+}
+
+listview {
+    spacing: 0;
+    scrollbar: true;
+    margin: 0;
+    dynamic: true;
+}
+
+element {
+    padding: 16;
+    border: 0 0 1 0;
+    border-color: @eerie-black;
+    background-color: @machinegun-gray;
+}
+
+element.selected {
+	background-color: @eerie-black;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       @polish-gray;
+}
+
+element-text.selected {
+    background-color: @eerie-black;
+    text-color:       @lambo-green;
+}
+
+
+#scrollbar {
+    border: 0;
+    width: 8px;
+    handle-color: @lambo-green;
+    handle-width: 8px;
+	background-color: @machinegun-gray;
+}
+
+#entry {
+    padding: 16;
+	background-color: #1c1f25;
+    text-color: @lambo-green;
+}
+
+#prompt {
+    padding: 16;
+    background-color: @eerie-black;
+    text-color: @polish-gray;
+    border: 0 1 0 0;
+}
+
+#inputbar {
+    border: 0 solid 0 solid 1 solid 0 solid;
+    margin: 0;
+    spacing: 0;
+    border-color: @eerie-black;
+}

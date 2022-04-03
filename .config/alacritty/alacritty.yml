@@ -1,0 +1,26 @@
+import:
+  - /home/hackme/.config/alacritty/dracula.yml
+env:
+  TERM: alacritty
+padding:
+  x: 10
+  y: 10
+tabspaces: 8
+font:
+  normal:
+    family: hack
+    style: Regular
+
+  bold:
+    family: hack
+    style: Bold
+
+  italic:
+    family: hack
+    style: Italic
+
+  size: 10.0
+draw_bold_text_with_bright_colors: true
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
